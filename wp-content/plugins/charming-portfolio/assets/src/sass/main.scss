@@ -1,0 +1,48 @@
+/**
+ * Import TailwindCss
+ */
+@forward "./tailwindcss/tailwindcss";
+@forward "./components/skills";
+@forward "./components/bottom-alert";
+@forward "./components/projects";
+@forward "./components/animations";
+@forward "./components/buttons";
+@forward "./components/intro";
+@forward "./components/aboutme";
+@forward "./components/fonts";
+@use './utils/variables' as *;
+
+/**
+ * Basic Styling
+ */
+
+.CHARMING_PORTFOLIO-welcome-emoji{
+	display: contents;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.simplecharm-portfolio-plugin-inner{
+	background-color: $background-color;
+}
+p,span,cite,svg{
+	color: $secondary-color;
+	fill: $secondary-color;
+}
+h1,h2,h3,h4,h5,h6{
+	color: $primary-color;
+}
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin: auto;
+}
+foorer{
+	h1,h2,h3,h4,h5,h6{
+		// color: #F9FAFB;
+	}
+}

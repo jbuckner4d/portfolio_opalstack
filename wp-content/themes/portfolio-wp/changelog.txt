@@ -1,0 +1,108 @@
+*** Portfolio WP Changelog ***
+
+2024-08-26 - Version 1.1.9
+* Fixed many phpcs ruleset errors
+* Renamed page patterns to avoid conflict with WP page slugs
+
+2024-08-26 - Version 1.1.8
+* Added text underline style to hover state for heading links
+* Removed upgrade link on theme screenshot
+* Removed permalink preset function
+* Added translation to static strings in pattern files
+
+2024-08-22 - Version 1.1.7
+* Admin notification updates
+
+2024-08-20 - Version 1.1.6
+* More security updates for WPcom review
+
+2024-08-16 - Version 1.1.5
+* Sanitization and escaping security updates
+
+2024-08-16 - Version 1.1.4
+* Re-wrote Jetpack module activation function
+* Fixed Jetpack fatal error
+
+2024-08-14 - Version 1.1.3
+* Added WP.com conditional checks
+* Fixed fatal error with Jetpack activation
+* Updating templates removing theme name for child theme usage
+* Hide "Go Pro" and "License" dashboard pages for WPcom
+* Added Portfolio Block conditional check for filtered portfolio pattern
+
+2024-08-12 - Version 1.1.2
+* Reverting pattern preview changes
+* Fixed text domain per WP.org auto review
+* Reduced file size of some placeholder images
+
+2024-08-12 - Version 1.1.1
+* Testing pattern display on WP.org
+
+2024-06-19 - Version 1.1.0
+* Added Portfolio WP dashboard
+* Updated stylesheet theme description to include patterns and demo link
+* Added function to unregister pro patterns
+* Updated search and archive page template layouts
+* Removed references to 'Organic'
+* Mobile style updates for patterns
+* Updated footer template parts
+* Updated header template part
+* Updated license check for pro patterns
+* Added template for single Jetpack portfolio post type
+* Updated jQuery for featured image display in portfolio pattern
+* Added mobile submenu dropdowns
+* New patterns and updates
+* New full page patterns
+* Updated image assets
+* Scrolling marquee
+
+2024-05-16 - Version 1.0.9
+* Updated screenshot
+* Updated theme and author URIs in stylesheet
+* Removed Merlin functionality
+* Removed updater and licensing
+* Fixed deprecation warning
+
+2024-04-30 - Version 1.0.8
+* Style and template updates after importing test content
+
+2024-04-19 - Version 1.0.7
+* Bumping version for re-review
+* Fixed Merlin related PHP warnings that appeared in PHP 8.1+
+
+2024-04-09 - Version 1.0.6
+* Bumping version for re-review
+* Fixed core issue when enqueuing admin scripts causing deprecated warnings
+
+2024-04-04 - Version 1.0.5
+* Bumping version for re-review
+* Additional minor updates
+
+2024-03-26 - Version 1.0.4
+* Changed theme name from PortfolioWP to Portfolio WP
+* Added social media patterns
+* Added newsletter patterns
+* Reduced file size of large image assets
+* Updated all text domains to match
+* Style updates
+
+2024-03-25 - Version 1.0.3
+* Cleaned up PHPCS errors and warnings
+* Added awards patterns
+* Removed duplicate patterns
+* Removed Sidebar page template
+* Replaced default page template with Blank Canvas template style
+* Removed Blank Canvas page template
+* Added missing local assets
+* Style updates
+
+2024-03-18 - Version 1.0.2
+* Added copyright info to functions file
+* Updated copyright info in README file
+* Fixed PHP Warnings in auto review
+
+2024-03-14 - Version 1.0.1
+* Bump version for WP.org trac update
+
+2024-03-07 - Version 1.0.0
+* Initial beta release

@@ -1,0 +1,47 @@
+/*
+Theme Name: ResumeGrove
+Theme URI: https://themegrove.com/products/elitegrove/
+Author: Themegrove
+Author URI: https://themegrove.com/
+Description: Welcome to ResumeGrove, a sophisticated full-site editing theme tailored for businesses, consulting firms, law practices, and educational institutions. Combining modern design with powerful functionality, ResumeGrove allows you to easily customize every aspect of your website. It integrates seamlessly with WooCommerce for e-commerce solutions, WPML for multilingual support, and Contact Form 7 for streamlined communication. Whether you're starting a consultancy, law firm, or educational platform, ResumeGrove offers the flexibility and professionally designed templates you need to build a strong online presence—all optimized for SEO to enhance your visibility. Demo: https://demos.themegrove.com/resumegrove/
+Template: elitegrove
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: resumegrove
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+body .wp-element-button:hover,
+body .wp-block-button__link:hover,
+body a.wp-block-post-excerpt__more-link:hover,
+body p.elitegrove-scrool-top:hover:before {
+  color: var(--wp--preset--color--base) !important;
+}
+
+.how-it-works-icon {
+  display: inline-block;
+}
+
+.rg-faq details{
+	border-radius: 5px;
+}
+
+a.wp-block-post-excerpt__more-link {
+  color: var(--wp--preset--color--white) !important;
+}
+
+.tag-cloud-link {
+  color: var(--wp--preset--color--base) !important;
+}
+
+.page-numbers {
+  color: var(--wp--preset--color--base) !important;
+}
+
+.woocommerce div.product form.cart button.single_add_to_cart_button, .woocommerce div.product form.cart button[name=add-to-cart], .wc-block-components-button:not(.is-link) {
+  color: var(--wp--preset--color--base) !important;
+}

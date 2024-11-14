@@ -1,0 +1,16 @@
+== v1.0 ==
+-Initial Release.
+== v1.1 ==
+-Added Special Tags for Textareas.
+-Fixed Font Issues.
+-Imoroved Responsibility
+== v1.2.4 ==
+-Fixed Some Layout Issue
+-Improved Design
+==v1.2.5==
+-Validating Form in The Client Perfectly.
+-Improved Design
+==v1.2.8==
+-Added New Icons for Social Links
+==v1.2.9==
+-Fixed The Description Updating Related Bug
